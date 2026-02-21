@@ -2,11 +2,7 @@
 
 ## Install
 
-```sh
-./install.sh vscode
-```
-
-Then select "Yerba" from the Color Theme picker (`Ctrl+K Ctrl+T`).
+Search for "Yerba" in the Extensions panel (`Ctrl+Shift+X`), then select "Yerba" from the Color Theme picker (`Ctrl+K Ctrl+T`).
 
 ## Palette
 
@@ -24,10 +20,10 @@ Then select "Yerba" from the Color Theme picker (`Ctrl+K Ctrl+T`).
 
 <details>
 <summary>Rust</summary>
-<img src="../docs/resources/vscode-rs.png" alt="Rust in VS Code with yerba theme" />
+<img src="https://raw.githubusercontent.com/sebastian-j-ibanez/yerba-theme/main/docs/resources/vscode-rs.png" alt="Rust in VS Code with yerba theme" />
 </details>
 
 <details>
 <summary>Welcome</summary>
-<img src="../docs/resources/vscode-welcome.png" alt="VS Code welcome page with yerba theme" />
+<img src="https://raw.githubusercontent.com/sebastian-j-ibanez/yerba-theme/main/docs/resources/vscode-welcome.png" alt="VS Code welcome page with yerba theme" />
 </details>

@@ -4,7 +4,8 @@
   "colors": {
     "editor.background": "#181818",
     "editor.foreground": "#bcbcbc",
-    "editor.selectionBackground": "#222222",
+    "editor.selectionBackground": "#6a9a6a40",
+    "editor.selectionHighlightBackground": "#6a9a6a25",
     "editor.lineHighlightBackground": "#222222",
     "editorLineNumber.foreground": "#333333",
     "editorLineNumber.activeForeground": "#6a9a6a",
@@ -114,7 +115,7 @@
 
     "focusBorder": "#333333",
     "foreground": "#bcbcbc",
-    "selection.background": "#222222",
+    "selection.background": "#3d5c3d",
     "errorForeground": "#a05a4a",
 
     "terminal.background": "#181818",
@@ -135,7 +136,7 @@
     "terminal.ansiBrightMagenta": "#b8a890",
     "terminal.ansiBrightCyan": "#787878",
     "terminal.ansiBrightWhite": "#d3d3d3",
-    "terminal.selectionBackground": "#222222",
+    "terminal.selectionBackground": "#6a9a6a40",
     "terminalCursor.foreground": "#bcbcbc",
 
     "textLink.foreground": "#6a9a6a",
