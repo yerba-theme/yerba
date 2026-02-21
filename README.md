@@ -2,6 +2,8 @@
 
 A warm, low-contrast dark theme with earthy tones.
 
+<img src="docs/resources/helix-rs.png" alt="Rust snippet in yerba theme" />
+
 ## Palette
 
 | Color | Hex | Preview |
@@ -14,44 +16,11 @@ A warm, low-contrast dark theme with earthy tones.
 | Background | `#181818` | ![bg](https://img.shields.io/badge/bg-%23181818?style=flat-square&color=181818) |
 | Foreground | `#bcbcbc` | ![fg](https://img.shields.io/badge/fg-%23bcbcbc?style=flat-square&color=bcbcbc) |
 
-## Previews
+## Ports
 
-### Helix
-
-<details>
-<summary>C</summary>
-<img src="docs/resources/helix-c.png" alt="C snippet in yerba theme" />
-</details>
-
-<details>
-<summary>Rust</summary>
-<img src="docs/resources/helix-rs.png" alt="Rust snippet in yerba theme" />
-</details>
-
-<details>
-<summary>Python</summary>
-<img src="docs/resources/helix.py.png" alt="Python snippet in yerba theme" />
-</details>
-
-<details>
-<summary>TypeScript</summary>
-<img src="docs/resources/helix-ts.png" alt="TypeScript snippet in yerba theme" />
-</details>
-
-<details>
-<summary>Scheme</summary>
-<img src="docs/resources/helix-scm.png" alt="Scheme snippet in yerba theme" />
-</details>
-
-<details>
-<summary>Markdown</summary>
-<img src="docs/resources/helix.md.png" alt="Markdown snippet in yerba theme" />
-</details>
-
-## Supported Apps
-
-- [Helix](https://helix-editor.com/)
-- [Ghostty](https://ghostty.org/)
+- [Helix](helix/)
+- [Ghostty](ghostty/)
+- [VS Code](vscode/)
 
 ## Install
 
@@ -62,6 +31,7 @@ cd yerba-theme
 # install for a specific app
 ./install.sh helix
 ./install.sh ghostty
+./install.sh vscode
 
 # or install all
 ./install.sh all
