@@ -1,0 +1,201 @@
+# Skull-Rasmus theme for Helix (forest variant)
+# Rasmus-style color differentiation with the skull aesthetic
+# No bold, no italic — uniform font weight
+
+# --- Syntax Highlighting ---
+
+"attribute" = "sand"
+
+"type" = "fg"
+"type.builtin" = "flint"
+"type.parameter" = "fg"
+"type.enum.variant" = "flint"
+"constructor" = "copper"
+
+"constant" = "fg"
+"constant.builtin" = "fg"
+"constant.character" = "sand"
+"constant.character.escape" = "flint"
+"constant.numeric" = "flint"
+"constant.numeric.integer" = "flint"
+"constant.numeric.float" = "flint"
+
+"string" = "sand"
+"string.regexp" = "moss"
+"string.special" = "terracotta"
+"string.special.path" = "sand"
+"string.special.url" = { fg = "sand", underline.style = "line" }
+"string.special.symbol" = "fg"
+
+"comment" = "dim_bright"
+"comment.line" = "dim_bright"
+"comment.block" = "dim_bright"
+"comment.block.documentation" = "dim_bright"
+
+"variable" = "fg"
+"variable.builtin" = "moss"
+"variable.parameter" = "fg"
+"variable.other.member" = "fg"
+
+"label" = "copper"
+
+"punctuation" = "dim_bright"
+"punctuation.delimiter" = "dim_bright"
+"punctuation.bracket" = "dim_bright"
+"punctuation.special" = "fg"
+
+"keyword" = "terracotta"
+"keyword.control" = "terracotta"
+"keyword.control.conditional" = "terracotta"
+"keyword.control.repeat" = "terracotta"
+"keyword.control.import" = "terracotta"
+"keyword.control.return" = "terracotta"
+"keyword.control.exception" = "terracotta"
+"keyword.operator" = "terracotta"
+"keyword.directive" = "flint"
+"keyword.function" = "terracotta"
+"keyword.storage" = "terracotta"
+"keyword.storage.type" = "terracotta"
+"keyword.storage.modifier" = "terracotta"
+
+"operator" = "copper"
+"special" = "copper"
+
+"function" = "moss"
+"function.builtin" = "moss"
+"function.method" = "moss"
+"function.macro" = "terracotta"
+"function.special" = "moss"
+
+"tag" = "copper"
+"tag.builtin" = "copper"
+
+"namespace" = "dim_bright"
+
+"markup.heading" = "fg"
+"markup.heading.1" = "moss"
+"markup.heading.2" = "moss"
+"markup.heading.3" = "fg"
+"markup.heading.4" = "fg"
+"markup.heading.5" = "dim_bright"
+"markup.heading.6" = "dim_bright"
+"markup.list" = "terracotta"
+"markup.bold" = "fg"
+"markup.italic" = "fg"
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link" = { fg = "sand", underline.style = "line" }
+"markup.link.url" = { fg = "sand", underline.style = "line" }
+"markup.link.label" = "sand"
+"markup.link.text" = "moss"
+"markup.quote" = "dim_bright"
+"markup.raw" = "copper"
+"markup.raw.inline" = "copper"
+"markup.raw.block" = "copper"
+
+"diff.plus" = "moss"
+"diff.plus.gutter" = "moss"
+"diff.minus" = "terracotta"
+"diff.minus.gutter" = "terracotta"
+"diff.delta" = "flint"
+"diff.delta.gutter" = "flint"
+
+# --- UI Elements ---
+
+"ui.background" = { bg = "bg" }
+"ui.background.separator" = { fg = "dark" }
+
+"ui.cursor" = { fg = "bg", bg = "white" }
+"ui.cursor.normal" = { fg = "bg", bg = "fg" }
+"ui.cursor.insert" = { fg = "bg", bg = "bright" }
+"ui.cursor.select" = { fg = "bg", bg = "moss" }
+"ui.cursor.match" = { fg = "black", bg = "moss" }
+"ui.cursor.primary" = { fg = "bg", bg = "white" }
+"ui.cursor.primary.normal" = { fg = "bg", bg = "fg" }
+"ui.cursor.primary.insert" = { fg = "bg", bg = "bright" }
+"ui.cursor.primary.select" = { fg = "bg", bg = "moss" }
+
+"ui.gutter" = { bg = "bg" }
+"ui.gutter.selected" = { bg = "bg_1" }
+
+"ui.linenr" = { fg = "dark" }
+"ui.linenr.selected" = { fg = "moss" }
+
+"ui.statusline" = { fg = "fg", bg = "dark" }
+"ui.statusline.inactive" = { fg = "dim_bright", bg = "bg_1" }
+"ui.statusline.normal" = { fg = "fg", bg = "dark" }
+"ui.statusline.insert" = { fg = "black", bg = "flint" }
+"ui.statusline.select" = { fg = "black", bg = "terracotta" }
+"ui.statusline.separator" = { fg = "dark" }
+
+"ui.bufferline" = { fg = "dim_bright", bg = "bg" }
+"ui.bufferline.active" = { fg = "fg", bg = "bg_1" }
+"ui.bufferline.background" = { bg = "bg" }
+
+"ui.popup" = { fg = "fg", bg = "bg_1" }
+"ui.popup.info" = { fg = "fg", bg = "bg_1" }
+
+"ui.window" = { fg = "dark" }
+"ui.help" = { fg = "fg", bg = "bg_1" }
+
+"ui.text" = { fg = "fg" }
+"ui.text.focus" = { fg = "bright" }
+"ui.text.inactive" = { fg = "dim_bright" }
+"ui.text.info" = { fg = "fg" }
+"ui.text.directory" = "moss"
+
+"ui.virtual" = { fg = "dark" }
+"ui.virtual.ruler" = { bg = "bg_1" }
+"ui.virtual.whitespace" = { fg = "dark" }
+"ui.virtual.indent-guide" = { fg = "dark" }
+"ui.virtual.inlay-hint" = { fg = "dim" }
+"ui.virtual.inlay-hint.parameter" = { fg = "dim" }
+"ui.virtual.inlay-hint.type" = { fg = "dim" }
+"ui.virtual.wrap" = { fg = "dark" }
+"ui.virtual.jump-label" = "terracotta"
+
+"ui.menu" = { fg = "moss", bg = "bg_1" }
+"ui.menu.selected" = { fg = "fg", bg = "bg_1" }
+"ui.menu.scroll" = { fg = "dim", bg = "bg_1" }
+
+"ui.selection" = { fg = "moss", bg = "bg_1" }
+"ui.selection.primary" = { fg = "moss", bg = "bg_1" }
+
+"ui.highlight" = { bg = "bg_1" }
+"ui.highlight.frameline" = { bg = "bg_1" }
+
+"ui.cursorline.primary" = { bg = "bg_1" }
+"ui.cursorline.secondary" = { bg = "bg_1" }
+"ui.cursorcolumn.primary" = { bg = "bg_1" }
+"ui.cursorcolumn.secondary" = { bg = "bg_1" }
+
+"warning" = { fg = "copper" }
+"error" = { fg = "terracotta" }
+"info" = { fg = "flint" }
+"hint" = { fg = "dim" }
+
+"diagnostic.hint" = { underline = { color = "dim", style = "dotted" } }
+"diagnostic.info" = { underline = { color = "flint", style = "dotted" } }
+"diagnostic.warning" = { underline = { color = "copper", style = "curl" } }
+"diagnostic.error" = { underline = { color = "terracotta", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+# --- Palette ---
+# Greys from darkest to lightest, plus five accents
+
+[palette]
+black = "#000000"
+bg = "#181818"
+bg_1 = "#222222"
+dark = "#333333"
+dim = "#3a3a3a"
+dim_bright = "#686868"
+fg = "#bcbcbc"
+bright = "#d3d3d3"
+white = "#FFFFFF"
+
+moss = "#6a9a6a"
+terracotta = "#a05a4a"
+sand = "#a89880"
+copper = "#b87848"
+flint = "#909088"
